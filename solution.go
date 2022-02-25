@@ -9,7 +9,7 @@ func main() {
 const (
 	SidesTriangle = 3
 
-	Sidessquare = 4
+	SidesSquare = 4
 
 	SidessCircle = 0
 )
