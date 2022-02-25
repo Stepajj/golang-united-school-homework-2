@@ -2,10 +2,6 @@ package main
 
 import "math"
 
-func main() {
-
-}
-
 const (
 	SidesTriangle = 3
 
