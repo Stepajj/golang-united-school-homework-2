@@ -8,6 +8,8 @@ const (
 	SidesSquare = 4
 
 	SidessCircle = 0
+	
+	Pi = math.Pi
 )
 
 type intCustomType int
@@ -20,7 +22,7 @@ func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 		square := sideLen * sideLen
 		return square
 	} else if sidesNum == 0 {
-		square := sideLen * sideLen * math.Pi
+		square := sideLen * sideLen * Pi
 		return square
 	} else {
 		return 0
