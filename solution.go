@@ -7,7 +7,7 @@ const (
 
 	SidesSquare = 4
 
-	SidessCircle = 0
+	SidesCircle = 0
 	
 	Pi = math.Pi
 )
