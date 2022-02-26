@@ -18,10 +18,10 @@ func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 		return  float64(square)
 	} else if sidesNum == 4 {
 		square := sideLen * sideLen
-		return  float64(square)
+		return square
 	} else if sidesNum == 0 {
 		square := sideLen * sideLen * math.Pi
-		return  float64(square)
+		return square
 	} else {
 		return 0
 	}
